@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Digital Calculator</h1>
+    <div class="cont">
+        <div class="abc">
+            <p class="calo" id="total"></p>
+            <p class="alp" id="num">0</p>
+        </div>
+        <div class="bcd">
+            <table>
+                <tbody>
+                    <tr class="a1">
+                        <td><button onclick="plus()">+</button></td>
+                        <td><button class="ee" onclick="minus()">- </button></td>
+                        <td><button onclick="multi()">x</button></td>
+                        <td><button onclick="divide()">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="seven()">7</button></td>
+                        <td><button onclick="eight()">8</button></td>
+                        <td><button onclick="nine()">9</button></td>
+                        <td rowspan="4"><button class="sp" onclick="equalsto()">=</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button onclick="four()" >4</button></td>
+                        <td><button onclick="five()">5</button></td>
+                        <td><button onclick="six()">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="one()">1</button></td>
+                        <td><button onclick="two()">2</button></td>
+                        <td><button onclick="three()">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="zero()">0</button></td>
+                        <td><button class="ee as" onclick="dot()">. </button></td>
+                        <td><button class="as" onclick="zeroe()">c</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="nam">Created by Rohit Pandey</div>
+    
+
+    <script src="/script.js"></script>
+</body>
+</html>
